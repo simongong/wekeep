@@ -9,6 +9,9 @@
   },
   "deviceConfig": {},
   "module": {
+    "reqCapabilities": [
+      "SystemCapability.ArkUI.ArkUI.Full"
+    ],
     "reqPermissions": [
       {
         "name": "ohos.permission.HEALTH_DATA_READ"
@@ -39,7 +42,8 @@
     "js": [
       {
         "pages": [
-          "pages/index/index"
+          "pages/index/index",
+          "pages/cate/cate"
         ],
         "name": ".MainAbility"
       }

@@ -1,0 +1,5 @@
+<div class="category-container">
+    <div class="item" for="item in categoryItems">
+        <div class="item-block">{{item.title}}</div>
+    </div>
+</div>

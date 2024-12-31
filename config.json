@@ -1,0 +1,12 @@
+{
+  "module": {
+    "features": [
+      {
+        "name": "ArkUI",
+        "sysCap": [
+          "SystemCapability.ArkUI.ArkUI.Full"
+        ]
+      }
+    ]
+  }
+}
