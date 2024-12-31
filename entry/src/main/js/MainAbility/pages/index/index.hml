@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="half-quadrant">
+        <div class="quadrant quadrant-0" onclick="goToCategory(0)">
+            <div class="block" for="item in quadrants[0]" class="{{item.status === 'finished' ? 'block-finished' : 'block'}}"></div>
+        </div>
+        <div class="quadrant quadrant-1" onclick="goToCategory(1)">
+            <div class="block" for="item in quadrants[1]" class="{{item.status === 'finished' ? 'block-finished' : 'block'}}"></div>
+        </div>
+    </div>
+    <div class="half-quadrant">
+        <div class="quadrant quadrant-2" onclick="goToCategory(2)">
+            <div class="block" for="item in quadrants[2]" class="{{item.status === 'finished' ? 'block-finished' : 'block'}}"></div>
+        </div>
+        <div class="quadrant quadrant-3" onclick="goToCategory(3)">
+            <div class="block" for="item in quadrants[3]" class="{{item.status === 'finished' ? 'block-finished' : 'block'}}"></div>
+        </div>
+    </div>
+</div>

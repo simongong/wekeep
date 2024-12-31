@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.half-quadrant {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.quadrant {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quadrant-0 { background-color: rgba(255, 0, 0, 0.5); }
+.quadrant-1 { background-color: rgba(0, 255, 0, 0.5); }
+.quadrant-2 { background-color: rgba(0, 0, 255, 0.5); }
+.quadrant-3 { background-color: rgba(255, 255, 0, 0.5); }
+
+.block {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.block-finished { background-color: #000; }
